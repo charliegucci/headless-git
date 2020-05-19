@@ -51,4 +51,4 @@ const Login = () => {
     </Fragment>
   );
 };
-export { Login };
+export default Login;
