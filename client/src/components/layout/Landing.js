@@ -12,7 +12,13 @@ const Landing = ({ isAuthenticated }) => {
     <section className='landing'>
       <div className='dark-overlay'>
         <div className='landing-inner'>
-          <h1 className='x-large'>CoderAcademy Connect</h1>
+          <h1 className='x-large'>
+            Headless{' '}
+            <span>
+              <i className='fab fa-git'></i>
+            </span>
+          </h1>
+
           <p className='lead'>
             Create a student profile/portfolio, share posts and get help from
             other developers
@@ -32,11 +38,11 @@ const Landing = ({ isAuthenticated }) => {
 };
 
 Landing.propTypes = {
-  isAuthenticated: PropTypes.bool,
+  isAuthenticated: PropTypes.bool
 };
 
 const mapStateToProps = (state) => ({
-  isAuthenticated: state.auth.isAuthenticated,
+  isAuthenticated: state.auth.isAuthenticated
 });
 
 export default connect(mapStateToProps)(Landing);

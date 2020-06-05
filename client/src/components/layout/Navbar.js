@@ -11,7 +11,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
         <Link to='/profiles'>Developers</Link>
       </li>
       <li>
-        <Link to='/posts'>Posts</Link>
+        <Link to='/posts'>Discussions</Link>
       </li>
       <li>
         <Link to='/dashboard'>
@@ -46,7 +46,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     <nav className='navbar bg-dark'>
       <h1>
         <Link to='/'>
-          <i className='fas fa-laptop-code'></i> CoderAcademyConnect
+          Headless <i className='fab fa-git'></i>
         </Link>
       </h1>
       {!loading && (
