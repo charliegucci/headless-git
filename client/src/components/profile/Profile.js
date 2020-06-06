@@ -54,7 +54,7 @@ const Profile = ({
                 <h4> No Experience Credentials </h4>
               )}
             </div>
-            <div className='profile-du bg-white p-2'>
+            <div className='profile-edu bg-white p-2'>
               <h2 className='text-primary'>Education</h2>
               {profile.education.length > 0 ? (
                 <Fragment>
