@@ -234,6 +234,7 @@ img {
 
 .round-img {
   border-radius: 50%;
+  width: 50%;
 }
 
 .line {
