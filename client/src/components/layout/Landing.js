@@ -16,6 +16,9 @@ const Landing = ({ isAuthenticated }) => {
             Headless{' '}
             <span>
               <i className='fab fa-git'></i>
+            </span>{' '}
+            <span>
+              <i className='fas fa-code-branch fa-xs'></i>
             </span>
           </h1>
 

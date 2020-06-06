@@ -47,6 +47,8 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
       <h1>
         <Link to='/'>
           Headless <i className='fab fa-git'></i>
+          <span> </span>
+          <i className='fas fa-code-branch fa-xs'></i>
         </Link>
       </h1>
       {!loading && (
