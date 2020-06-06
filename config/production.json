@@ -1,0 +1,7 @@
+{
+    "mongoURI": "mongodb+srv://wilson_mongo:hajPCvpiNbwffiOynini@coderacademyconnector-zwgol.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "charliegucci",
+    "githubClientId": "Iv1.0d30002090c9daef",
+    "githubSecret": "2cc876b6b1933fb3b954fe6482399360116939f6"
+
+}
